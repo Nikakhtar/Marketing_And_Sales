@@ -1,0 +1,2680 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessMaker-Project version="3.0">
+  <metadata>
+    <meta key="vendor_version">3.3.6-community</meta>
+    <meta key="vendor_version_code">Michelangelo</meta>
+    <meta key="export_timestamp">1580983696</meta>
+    <meta key="export_datetime"><![CDATA[2020-02-06T13:38:16+03:30]]></meta>
+    <meta key="export_server_addr"><![CDATA[::1:81]]></meta>
+    <meta key="export_server_os">WINNT</meta>
+    <meta key="export_server_php_version">70130</meta>
+    <meta key="workspace">workflow</meta>
+    <meta key="name"><![CDATA[بازاریابی]]></meta>
+    <meta key="uid">1690820545db20418745184096291739</meta>
+  </metadata>
+  <definition class="BPMN">
+    <table name="ACTIVITY">
+      <record>
+        <act_uid>7208521695db2065518a722040764176</act_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <pro_uid>6585096065db20418847a43052557529</pro_uid>
+        <act_name><![CDATA[فروش]]></act_name>
+        <act_type>SUB_PROCESS</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>COLLAPSED</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>3233549175db2065518fa27086724429</bou_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <element_uid>7208521695db2065518a722040764176</element_uid>
+        <bou_element>1573164245db2080d4a74f0034225231</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>156</bou_x>
+        <bou_y>54</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <act_uid>2489397865db20419171641092116057</act_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <pro_uid>6585096065db20418847a43052557529</pro_uid>
+        <act_name><![CDATA[تایید وضعیت]]></act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>5635455135db20419175379039121779</bou_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <element_uid>2489397865db20419171641092116057</element_uid>
+        <bou_element>5823140365db20418af87d7019067730</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>797</bou_x>
+        <bou_y>51</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <act_uid>8793961875db204198cf001039288948</act_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <pro_uid>6585096065db20418847a43052557529</pro_uid>
+        <act_name><![CDATA[پیگیری بازاریابی]]></act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>7331768035db204198d2ce1065212856</bou_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <element_uid>8793961875db204198cf001039288948</element_uid>
+        <bou_element>5823140365db20418af87d7019067730</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>443</bou_x>
+        <bou_y>51</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <act_uid>7495089355db20419378e87054408440</act_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <pro_uid>6585096065db20418847a43052557529</pro_uid>
+        <act_name><![CDATA[معرفی بازاریابی]]></act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>7585176155db2041937cb72075899347</bou_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <element_uid>7495089355db20419378e87054408440</element_uid>
+        <bou_element>2429678825db204189d7786020804053</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>218</bou_x>
+        <bou_y>43</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+    </table>
+    <table name="ARTIFACT"/>
+    <table name="BOUND">
+      <record>
+        <bou_uid>1212761005db20419d06f14008424886</bou_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <element_uid>1237198405db20419d03374046837606</element_uid>
+        <bou_element>5823140365db20418af87d7019067730</bou_element>
+        <bou_element_type>bpmnGateway</bou_element_type>
+        <bou_x>1059</bou_x>
+        <bou_y>68</bou_y>
+        <bou_width>41</bou_width>
+        <bou_height>41</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>1600204865db204189dc008060102600</bou_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <element_uid>2429678825db204189d7786020804053</element_uid>
+        <bou_element>7681909825db20418938850097177627</bou_element>
+        <bou_element_type>bpmnLane</bou_element_type>
+        <bou_x>40</bou_x>
+        <bou_y>0</bou_y>
+        <bou_width>1478</bou_width>
+        <bou_height>184</bou_height>
+        <bou_rel_position>1</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <bou_uid>3233549175db2065518fa27086724429</bou_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <element_uid>7208521695db2065518a722040764176</element_uid>
+        <bou_element>1573164245db2080d4a74f0034225231</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>156</bou_x>
+        <bou_y>54</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>4376986125db2041a050683092515838</bou_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <element_uid>5600781415db2041a04ca89070917349</element_uid>
+        <bou_element>5823140365db20418af87d7019067730</bou_element>
+        <bou_element_type>bpmnGateway</bou_element_type>
+        <bou_x>661</bou_x>
+        <bou_y>68</bou_y>
+        <bou_width>41</bou_width>
+        <bou_height>41</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>5028451185db2041893f4e7021969968</bou_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <element_uid>7681909825db20418938850097177627</element_uid>
+        <bou_element>2717709585db204187f1625023798181</bou_element>
+        <bou_element_type>bpmnLaneset</bou_element_type>
+        <bou_x>40</bou_x>
+        <bou_y>184</bou_y>
+        <bou_width>1519</bou_width>
+        <bou_height>565</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>5635455135db20419175379039121779</bou_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <element_uid>2489397865db20419171641092116057</element_uid>
+        <bou_element>5823140365db20418af87d7019067730</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>797</bou_x>
+        <bou_y>51</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>5667412575db2080d4abe10079912543</bou_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <element_uid>1573164245db2080d4a74f0034225231</element_uid>
+        <bou_element>7681909825db20418938850097177627</bou_element>
+        <bou_element_type>bpmnLane</bou_element_type>
+        <bou_x>40</bou_x>
+        <bou_y>365</bou_y>
+        <bou_width>1478</bou_width>
+        <bou_height>200</bou_height>
+        <bou_rel_position>3</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <bou_uid>6668395645db2041a545053017265325</bou_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <element_uid>2078090385db2041a541384048952183</element_uid>
+        <bou_element>5823140365db20418af87d7019067730</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>1237</bou_x>
+        <bou_y>72</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>7184954945db228103aed19091707813</bou_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <element_uid>3140204195db228103a9b79094517764</element_uid>
+        <bou_element>1573164245db2080d4a74f0034225231</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>420</bou_x>
+        <bou_y>75</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>7331768035db204198d2ce1065212856</bou_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <element_uid>8793961875db204198cf001039288948</element_uid>
+        <bou_element>5823140365db20418af87d7019067730</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>443</bou_x>
+        <bou_y>51</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>7585176155db2041937cb72075899347</bou_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <element_uid>7495089355db20419378e87054408440</element_uid>
+        <bou_element>2429678825db204189d7786020804053</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>218</bou_x>
+        <bou_y>43</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>7788447135db20418afcef2046109773</bou_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <element_uid>5823140365db20418af87d7019067730</element_uid>
+        <bou_element>7681909825db20418938850097177627</bou_element>
+        <bou_element_type>bpmnLane</bou_element_type>
+        <bou_x>40</bou_x>
+        <bou_y>184</bou_y>
+        <bou_width>1478</bou_width>
+        <bou_height>181</bou_height>
+        <bou_rel_position>2</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <bou_uid>8674644085db2041a35ca76086110195</bou_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <element_uid>4258813485db2041a358cf4044846895</element_uid>
+        <bou_element>2429678825db204189d7786020804053</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>92</bou_x>
+        <bou_y>64</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>8873972335db208fdca5076088694332</bou_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <element_uid>7878738485db208fdc9fda7069592469</element_uid>
+        <bou_element>2717709585db204187f1625023798181</bou_element>
+        <bou_element_type>bpmnParticipant</bou_element_type>
+        <bou_x>40</bou_x>
+        <bou_y>16</bou_y>
+        <bou_width>500</bou_width>
+        <bou_height>130</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="DATA"/>
+    <table name="DIAGRAM">
+      <record>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <dia_name><![CDATA[بازاریابی]]></dia_name>
+        <dia_is_closable>0</dia_is_closable>
+      </record>
+    </table>
+    <table name="DOCUMENTATION"/>
+    <table name="EVENT">
+      <record>
+        <evn_uid>2078090385db2041a541384048952183</evn_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <pro_uid>6585096065db20418847a43052557529</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>END</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message></evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>THROW</evn_behavior>
+        <bou_uid>6668395645db2041a545053017265325</bou_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <element_uid>2078090385db2041a541384048952183</element_uid>
+        <bou_element>5823140365db20418af87d7019067730</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>1237</bou_x>
+        <bou_y>72</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <evn_uid>3140204195db228103a9b79094517764</evn_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <pro_uid>6585096065db20418847a43052557529</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>END</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message></evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>THROW</evn_behavior>
+        <bou_uid>7184954945db228103aed19091707813</bou_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <element_uid>3140204195db228103a9b79094517764</element_uid>
+        <bou_element>1573164245db2080d4a74f0034225231</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>420</bou_x>
+        <bou_y>75</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <evn_uid>4258813485db2041a358cf4044846895</evn_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <pro_uid>6585096065db20418847a43052557529</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>START</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message>LEAD</evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>CATCH</evn_behavior>
+        <bou_uid>8674644085db2041a35ca76086110195</bou_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <element_uid>4258813485db2041a358cf4044846895</element_uid>
+        <bou_element>2429678825db204189d7786020804053</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>92</bou_x>
+        <bou_y>64</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+    </table>
+    <table name="EXTENSION"/>
+    <table name="FLOW">
+      <record>
+        <flo_uid>2596087205db2041a710992099760563</flo_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>2489397865db20419171641092116057</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>1237198405db20419d03374046837606</flo_element_dest>
+        <flo_element_dest_type>bpmnGateway</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>1030</flo_x1>
+        <flo_y1>461</flo_y1>
+        <flo_x2>1141</flo_x2>
+        <flo_y2>461</flo_y2>
+        <flo_state><![CDATA[[{"x":1030,"y":461},{"x":1141,"y":461}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>4301970405db22810454e26062332318</flo_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>7208521695db2065518a722040764176</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>3140204195db228103a9b79094517764</flo_element_dest>
+        <flo_element_dest_type>bpmnEvent</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>389</flo_x1>
+        <flo_y1>645</flo_y1>
+        <flo_x2>502</flo_x2>
+        <flo_y2>645</flo_y2>
+        <flo_state><![CDATA[[{"x":389,"y":645},{"x":502,"y":645}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>4675250025db2041a711053090647790</flo_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>5600781415db2041a04ca89070917349</flo_element_origin>
+        <flo_element_origin_type>bpmnGateway</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>8793961875db204198cf001039288948</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition><![CDATA[@@latest_marketing_holding_Result == 1]]></flo_condition>
+        <flo_x1>764</flo_x1>
+        <flo_y1>481</flo_y1>
+        <flo_x2>601</flo_x2>
+        <flo_y2>498</flo_y2>
+        <flo_state><![CDATA[[{"x":764,"y":481},{"x":764,"y":514},{"x":601,"y":514},{"x":601,"y":498}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>5364610925db2041a7101b7032829976</flo_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>4258813485db2041a358cf4044846895</flo_element_origin>
+        <flo_element_origin_type>bpmnEvent</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>7495089355db20419378e87054408440</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>207</flo_x1>
+        <flo_y1>267</flo_y1>
+        <flo_x2>300</flo_x2>
+        <flo_y2>267</flo_y2>
+        <flo_state><![CDATA[[{"x":207,"y":267},{"x":300,"y":267}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>5880045275db2091e498d27024677994</flo_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <flo_type>MESSAGE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>7878738485db208fdc9fda7069592469</flo_element_origin>
+        <flo_element_origin_type>bpmnParticipant</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>7495089355db20419378e87054408440</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>311</flo_x1>
+        <flo_y1>149</flo_y1>
+        <flo_x2>376</flo_x2>
+        <flo_y2>229</flo_y2>
+        <flo_state><![CDATA[[{"x":311,"y":149},{"x":311,"y":189},{"x":376,"y":189},{"x":376,"y":229}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>6833803235db2041a70f847004097993</flo_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>8793961875db204198cf001039288948</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>5600781415db2041a04ca89070917349</flo_element_dest>
+        <flo_element_dest_type>bpmnGateway</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>676</flo_x1>
+        <flo_y1>461</flo_y1>
+        <flo_x2>743</flo_x2>
+        <flo_y2>461</flo_y2>
+        <flo_state><![CDATA[[{"x":676,"y":461},{"x":743,"y":461}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>7018956265db2041a70f699048031207</flo_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>1237198405db20419d03374046837606</flo_element_origin>
+        <flo_element_origin_type>bpmnGateway</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>8793961875db204198cf001039288948</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition><![CDATA[@=latest_marketing_ReviewResult == 1]]></flo_condition>
+        <flo_x1>1162</flo_x1>
+        <flo_y1>440</flo_y1>
+        <flo_x2>601</flo_x2>
+        <flo_y2>423</flo_y2>
+        <flo_state><![CDATA[[{"x":1162,"y":440},{"x":1162,"y":397},{"x":601,"y":397},{"x":601,"y":423}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>9388717155db2041a710808041190679</flo_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>7495089355db20419378e87054408440</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>8793961875db204198cf001039288948</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>451</flo_x1>
+        <flo_y1>267</flo_y1>
+        <flo_x2>525</flo_x2>
+        <flo_y2>461</flo_y2>
+        <flo_state><![CDATA[[{"x":451,"y":267},{"x":488,"y":267},{"x":488,"y":461},{"x":525,"y":461}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>1455175905db2041a712f43062828873</flo_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>1237198405db20419d03374046837606</flo_element_origin>
+        <flo_element_origin_type>bpmnGateway</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>2078090385db2041a541384048952183</flo_element_dest>
+        <flo_element_dest_type>bpmnEvent</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition><![CDATA[@=latest_marketing_ReviewResult == 3 || @=latest_marketing_ReviewResult == 4]]></flo_condition>
+        <flo_x1>1182</flo_x1>
+        <flo_y1>461</flo_y1>
+        <flo_x2>1319</flo_x2>
+        <flo_y2>461</flo_y2>
+        <flo_state><![CDATA[[{"x":1182,"y":461},{"x":1319,"y":461}]]]></flo_state>
+        <flo_position>2</flo_position>
+      </record>
+      <record>
+        <flo_uid>6910902485db2041a7125f6062563243</flo_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>5600781415db2041a04ca89070917349</flo_element_origin>
+        <flo_element_origin_type>bpmnGateway</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>2489397865db20419171641092116057</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition><![CDATA[@@latest_marketing_holding_Result == 2 || @@latest_marketing_holding_Result == 3]]></flo_condition>
+        <flo_x1>784</flo_x1>
+        <flo_y1>461</flo_y1>
+        <flo_x2>879</flo_x2>
+        <flo_y2>461</flo_y2>
+        <flo_state><![CDATA[[{"x":784,"y":461},{"x":879,"y":461}]]]></flo_state>
+        <flo_position>2</flo_position>
+      </record>
+      <record>
+        <flo_uid>3448934545db833f79559f0061674601</flo_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>5600781415db2041a04ca89070917349</flo_element_origin>
+        <flo_element_origin_type>bpmnGateway</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>2078090385db2041a541384048952183</flo_element_dest>
+        <flo_element_dest_type>bpmnEvent</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition><![CDATA[@@latest_marketing_holding_Result == 4]]></flo_condition>
+        <flo_x1>764</flo_x1>
+        <flo_y1>440</flo_y1>
+        <flo_x2>1336</flo_x2>
+        <flo_y2>444</flo_y2>
+        <flo_state><![CDATA[[{"x":764,"y":440},{"x":764,"y":411},{"x":1336,"y":411},{"x":1336,"y":444}]]]></flo_state>
+        <flo_position>3</flo_position>
+      </record>
+      <record>
+        <flo_uid>6463726625db20674f1e286038544712</flo_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>1237198405db20419d03374046837606</flo_element_origin>
+        <flo_element_origin_type>bpmnGateway</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>7208521695db2065518a722040764176</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition><![CDATA[@=latest_marketing_ReviewResult == 2]]></flo_condition>
+        <flo_x1>1162</flo_x1>
+        <flo_y1>481</flo_y1>
+        <flo_x2>314</flo_x2>
+        <flo_y2>607</flo_y2>
+        <flo_state><![CDATA[[{"x":1162,"y":481},{"x":1162,"y":544},{"x":314,"y":544},{"x":314,"y":607}]]]></flo_state>
+        <flo_position>3</flo_position>
+      </record>
+    </table>
+    <table name="GATEWAY">
+      <record>
+        <gat_uid>1237198405db20419d03374046837606</gat_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <pro_uid>6585096065db20418847a43052557529</pro_uid>
+        <gat_name></gat_name>
+        <gat_type>EXCLUSIVE</gat_type>
+        <gat_direction>DIVERGING</gat_direction>
+        <gat_instantiate>0</gat_instantiate>
+        <gat_event_gateway_type>NONE</gat_event_gateway_type>
+        <gat_activation_count>0</gat_activation_count>
+        <gat_waiting_for_start>1</gat_waiting_for_start>
+        <gat_default_flow>0</gat_default_flow>
+        <bou_uid>1212761005db20419d06f14008424886</bou_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <element_uid>1237198405db20419d03374046837606</element_uid>
+        <bou_element>5823140365db20418af87d7019067730</bou_element>
+        <bou_element_type>bpmnGateway</bou_element_type>
+        <bou_x>1059</bou_x>
+        <bou_y>68</bou_y>
+        <bou_width>41</bou_width>
+        <bou_height>41</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <gat_uid>5600781415db2041a04ca89070917349</gat_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <pro_uid>6585096065db20418847a43052557529</pro_uid>
+        <gat_name></gat_name>
+        <gat_type>EXCLUSIVE</gat_type>
+        <gat_direction>DIVERGING</gat_direction>
+        <gat_instantiate>0</gat_instantiate>
+        <gat_event_gateway_type>NONE</gat_event_gateway_type>
+        <gat_activation_count>0</gat_activation_count>
+        <gat_waiting_for_start>1</gat_waiting_for_start>
+        <gat_default_flow>0</gat_default_flow>
+        <bou_uid>4376986125db2041a050683092515838</bou_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <element_uid>5600781415db2041a04ca89070917349</element_uid>
+        <bou_element>5823140365db20418af87d7019067730</bou_element>
+        <bou_element_type>bpmnGateway</bou_element_type>
+        <bou_x>661</bou_x>
+        <bou_y>68</bou_y>
+        <bou_width>41</bou_width>
+        <bou_height>41</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+    </table>
+    <table name="LANE">
+      <record>
+        <lan_uid>2429678825db204189d7786020804053</lan_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <lns_uid>7681909825db20418938850097177627</lns_uid>
+        <lan_name><![CDATA[مدیر بازاریابی]]></lan_name>
+        <lan_child_laneset></lan_child_laneset>
+        <lan_is_horizontal>1</lan_is_horizontal>
+        <bou_uid>1600204865db204189dc008060102600</bou_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <element_uid>2429678825db204189d7786020804053</element_uid>
+        <bou_element>7681909825db20418938850097177627</bou_element>
+        <bou_element_type>bpmnLane</bou_element_type>
+        <bou_x>40</bou_x>
+        <bou_y>0</bou_y>
+        <bou_width>1478</bou_width>
+        <bou_height>184</bou_height>
+        <bou_rel_position>1</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <lan_uid>5823140365db20418af87d7019067730</lan_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <lns_uid>7681909825db20418938850097177627</lns_uid>
+        <lan_name><![CDATA[نماینده بازاریابی]]></lan_name>
+        <lan_child_laneset></lan_child_laneset>
+        <lan_is_horizontal>1</lan_is_horizontal>
+        <bou_uid>7788447135db20418afcef2046109773</bou_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <element_uid>5823140365db20418af87d7019067730</element_uid>
+        <bou_element>7681909825db20418938850097177627</bou_element>
+        <bou_element_type>bpmnLane</bou_element_type>
+        <bou_x>40</bou_x>
+        <bou_y>184</bou_y>
+        <bou_width>1478</bou_width>
+        <bou_height>181</bou_height>
+        <bou_rel_position>2</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <lan_uid>1573164245db2080d4a74f0034225231</lan_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <lns_uid>7681909825db20418938850097177627</lns_uid>
+        <lan_name><![CDATA[فروش]]></lan_name>
+        <lan_child_laneset></lan_child_laneset>
+        <lan_is_horizontal>1</lan_is_horizontal>
+        <bou_uid>5667412575db2080d4abe10079912543</bou_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <element_uid>1573164245db2080d4a74f0034225231</element_uid>
+        <bou_element>7681909825db20418938850097177627</bou_element>
+        <bou_element_type>bpmnLane</bou_element_type>
+        <bou_x>40</bou_x>
+        <bou_y>365</bou_y>
+        <bou_width>1478</bou_width>
+        <bou_height>200</bou_height>
+        <bou_rel_position>3</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+    </table>
+    <table name="LANESET">
+      <record>
+        <lns_uid>7681909825db20418938850097177627</lns_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <pro_uid>6585096065db20418847a43052557529</pro_uid>
+        <lns_name><![CDATA[میراکام پارس]]></lns_name>
+        <lns_parent_lane></lns_parent_lane>
+        <lns_is_horizontal>1</lns_is_horizontal>
+        <lns_state></lns_state>
+        <bou_uid>5028451185db2041893f4e7021969968</bou_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <element_uid>7681909825db20418938850097177627</element_uid>
+        <bou_element>2717709585db204187f1625023798181</bou_element>
+        <bou_element_type>bpmnLaneset</bou_element_type>
+        <bou_x>40</bou_x>
+        <bou_y>184</bou_y>
+        <bou_width>1519</bou_width>
+        <bou_height>565</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="PARTICIPANT">
+      <record>
+        <par_uid>7878738485db208fdc9fda7069592469</par_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <pro_uid>6585096065db20418847a43052557529</pro_uid>
+        <lns_uid></lns_uid>
+        <par_name><![CDATA[معرفی پروژه]]></par_name>
+        <par_minimum>0</par_minimum>
+        <par_maximum>1</par_maximum>
+        <par_num_participants>1</par_num_participants>
+        <par_is_horizontal>1</par_is_horizontal>
+        <bou_uid>8873972335db208fdca5076088694332</bou_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <element_uid>7878738485db208fdc9fda7069592469</element_uid>
+        <bou_element>2717709585db204187f1625023798181</bou_element>
+        <bou_element_type>bpmnParticipant</bou_element_type>
+        <bou_x>40</bou_x>
+        <bou_y>16</bou_y>
+        <bou_width>500</bou_width>
+        <bou_height>130</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="PROCESS">
+      <record>
+        <pro_uid>6585096065db20418847a43052557529</pro_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <dia_uid>2717709585db204187f1625023798181</dia_uid>
+        <pro_name><![CDATA[بازاریابی]]></pro_name>
+        <pro_type>NONE</pro_type>
+        <pro_is_executable>0</pro_is_executable>
+        <pro_is_closed>0</pro_is_closed>
+        <pro_is_subprocess>0</pro_is_subprocess>
+      </record>
+    </table>
+    <table name="PROJECT">
+      <record>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <prj_name><![CDATA[بازاریابی]]></prj_name>
+        <prj_description></prj_description>
+        <prj_target_namespace></prj_target_namespace>
+        <prj_expresion_language></prj_expresion_language>
+        <prj_type_language></prj_type_language>
+        <prj_exporter></prj_exporter>
+        <prj_exporter_version></prj_exporter_version>
+        <prj_create_date><![CDATA[2019-08-10 03:48:16]]></prj_create_date>
+        <prj_update_date><![CDATA[2019-11-18 20:27:30]]></prj_update_date>
+        <prj_author>00000000000000000000000000000001</prj_author>
+        <prj_author_version></prj_author_version>
+        <prj_original_source></prj_original_source>
+      </record>
+    </table>
+  </definition>
+  <definition class="workflow">
+    <table name="process">
+      <record>
+        <pro_uid>1690820545db20418745184096291739</pro_uid>
+        <pro_title><![CDATA[بازاریابی]]></pro_title>
+        <pro_description></pro_description>
+        <pro_parent>1415055385d4e76c053a244016936498</pro_parent>
+        <pro_time>1</pro_time>
+        <pro_timeunit>DAYS</pro_timeunit>
+        <pro_status>ACTIVE</pro_status>
+        <pro_type_day></pro_type_day>
+        <pro_type>NORMAL</pro_type>
+        <pro_assignment>FALSE</pro_assignment>
+        <pro_show_map>0</pro_show_map>
+        <pro_show_message>0</pro_show_message>
+        <pro_subprocess>0</pro_subprocess>
+        <pro_tri_create></pro_tri_create>
+        <pro_tri_open></pro_tri_open>
+        <pro_tri_deleted></pro_tri_deleted>
+        <pro_tri_canceled></pro_tri_canceled>
+        <pro_tri_paused></pro_tri_paused>
+        <pro_tri_reassigned></pro_tri_reassigned>
+        <pro_tri_unpaused></pro_tri_unpaused>
+        <pro_type_process>PUBLIC</pro_type_process>
+        <pro_show_delegate>0</pro_show_delegate>
+        <pro_show_dynaform>0</pro_show_dynaform>
+        <pro_category></pro_category>
+        <pro_sub_category></pro_sub_category>
+        <pro_industry>0</pro_industry>
+        <pro_update_date><![CDATA[2019-11-18 20:27:30]]></pro_update_date>
+        <pro_create_date><![CDATA[2019-10-24 16:05:44]]></pro_create_date>
+        <pro_create_user>00000000000000000000000000000001</pro_create_user>
+        <pro_height>5000</pro_height>
+        <pro_width>10000</pro_width>
+        <pro_title_x>0</pro_title_x>
+        <pro_title_y>0</pro_title_y>
+        <pro_debug>0</pro_debug>
+        <pro_dynaforms><![CDATA[a:1:{s:7:"PROCESS";s:0:"";}]]></pro_dynaforms>
+        <pro_derivation_screen_tpl></pro_derivation_screen_tpl>
+        <pro_cost>0</pro_cost>
+        <pro_unit_cost><![CDATA[$]]></pro_unit_cost>
+        <pro_itee>1</pro_itee>
+        <pro_action_done><![CDATA[a:1:{i:0;s:41:"GATEWAYTOGATEWAY_DELETE_CORRUPTED_RECORDS";}]]></pro_action_done>
+        <pro_category_label>No Category</pro_category_label>
+        <pro_bpmn>1</pro_bpmn>
+      </record>
+    </table>
+    <table name="tasks">
+      <record>
+        <pro_uid>1690820545db20418745184096291739</pro_uid>
+        <tas_uid>2489397865db20419171641092116057</tas_uid>
+        <tas_title><![CDATA[تایید وضعیت]]></tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day>1</tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable><![CDATA[@=Marketing_priority]]></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>00000000000000000000000000000001</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>FALSE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>797</tas_posx>
+        <tas_posy>51</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+      <record>
+        <pro_uid>1690820545db20418745184096291739</pro_uid>
+        <tas_uid>7208521695db2065518a722040764176</tas_uid>
+        <tas_title><![CDATA[فروش]]></tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>SUBPROCESS</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>00000000000000000000000000000001</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>FALSE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>156</tas_posx>
+        <tas_posy>54</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+      <record>
+        <pro_uid>1690820545db20418745184096291739</pro_uid>
+        <tas_uid>7495089355db20419378e87054408440</tas_uid>
+        <tas_title><![CDATA[معرفی بازاریابی]]></tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>00000000000000000000000000000001</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>TRUE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>218</tas_posx>
+        <tas_posy>43</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+      <record>
+        <pro_uid>1690820545db20418745184096291739</pro_uid>
+        <tas_uid>8793961875db204198cf001039288948</tas_uid>
+        <tas_title><![CDATA[پیگیری بازاریابی]]></tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable><![CDATA[@=Marketing_priority]]></tas_priority_variable>
+        <tas_assign_type>EVALUATE</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@latest_marketing_holding_Pass_To]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>TRUE</tas_transfer_fly>
+        <tas_last_assigned>00000000000000000000000000000001</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>FALSE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>443</tas_posx>
+        <tas_posy>51</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+    </table>
+    <table name="routes">
+      <record>
+        <rou_uid>1004907495dd2cd7b39aaa2008589715</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>1690820545db20418745184096291739</pro_uid>
+        <tas_uid>8793961875db204198cf001039288948</tas_uid>
+        <rou_next_task>-1</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>EVALUATE</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition><![CDATA[@@latest_marketing_holding_Result == 4]]></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>2098869075dd2cd7b330459027829502</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>1690820545db20418745184096291739</pro_uid>
+        <tas_uid>2489397865db20419171641092116057</tas_uid>
+        <rou_next_task>8793961875db204198cf001039288948</rou_next_task>
+        <rou_case>2</rou_case>
+        <rou_type>EVALUATE</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition><![CDATA[@=latest_marketing_ReviewResult == 1]]></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>3885088755dd2cd7b3f3868069803465</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>1690820545db20418745184096291739</pro_uid>
+        <tas_uid>8793961875db204198cf001039288948</tas_uid>
+        <rou_next_task>8793961875db204198cf001039288948</rou_next_task>
+        <rou_case>2</rou_case>
+        <rou_type>EVALUATE</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition><![CDATA[@@latest_marketing_holding_Result == 1]]></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>4674287245dd2cd7b4b8c79017422267</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>1690820545db20418745184096291739</pro_uid>
+        <tas_uid>7495089355db20419378e87054408440</tas_uid>
+        <rou_next_task>8793961875db204198cf001039288948</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>SEQUENTIAL</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>5117603955dd2cd7b255174051003079</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>1690820545db20418745184096291739</pro_uid>
+        <tas_uid>2489397865db20419171641092116057</tas_uid>
+        <rou_next_task>-1</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>EVALUATE</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition><![CDATA[@=latest_marketing_ReviewResult == 3 || @=latest_marketing_ReviewResult == 4]]></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>6558100895dd2cd7b2cda92079786918</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>1690820545db20418745184096291739</pro_uid>
+        <tas_uid>2489397865db20419171641092116057</tas_uid>
+        <rou_next_task>7208521695db2065518a722040764176</rou_next_task>
+        <rou_case>6</rou_case>
+        <rou_type>EVALUATE</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition><![CDATA[@=latest_marketing_ReviewResult == 2]]></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>8528813755dd2cd7b1b06f2033991855</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>1690820545db20418745184096291739</pro_uid>
+        <tas_uid>7208521695db2065518a722040764176</tas_uid>
+        <rou_next_task>-1</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>SEQUENTIAL</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>9683419465dd2cd7b453ff1040100727</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>1690820545db20418745184096291739</pro_uid>
+        <tas_uid>8793961875db204198cf001039288948</tas_uid>
+        <rou_next_task>2489397865db20419171641092116057</rou_next_task>
+        <rou_case>4</rou_case>
+        <rou_type>EVALUATE</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition><![CDATA[@@latest_marketing_holding_Result == 2 || @@latest_marketing_holding_Result == 3]]></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+    </table>
+    <table name="lanes"/>
+    <table name="gateways"/>
+    <table name="inputs"/>
+    <table name="outputs"/>
+    <table name="dynaforms">
+      <record>
+        <dyn_uid>2436807445db2041b9d4dc2055593318</dyn_uid>
+        <dyn_title><![CDATA[فرم نظارت بر بازاریابی]]></dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>1690820545db20418745184096291739</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[1415055385d4e76c053a244016936498\6428418135d6dc04de76462086430463]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"فرم نظارت بر بازاریابی","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"2436807445db2041b9d4dc2055593318","name":"فرم نظارت بر بازاریابی","description":"","mode":"edit","script":{"type":"js","code":"$(\"#latest_marketing_holding_Deadline\").find(\"input\").datepicker();"},"language":"en","externalLibs":"/lib/pmdynaform/libs/datepicker/jalali/bootstrap-datepicker.js,/lib/pmdynaform/libs/datepicker/jalali/bootstrap-datepicker.css,/lib/pmdynaform/libs/datepicker/jalali/bootstrap-datepicker.fa.js","printable":false,"items":[[{"type":"title","id":"title0000000003","label":"پروژه","colSpan":4},{"colSpan":4},{"colSpan":4}],[{"type":"text","variable":"Sale_manager","var_uid":"6668383845db2041ba4f368003709224","dataType":"string","protectedValue":false,"id":"Sale_manager","name":"Sale_manager","label":"مدیر پروژه :","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Sale_manager","colSpan":3},{"colSpan":3},{"colSpan":3},{"type":"text","variable":"Sale_submitDate","var_uid":"8113348625db2041ba404a2059512545","dataType":"string","protectedValue":false,"id":"Sale_submitDate","name":"Sale_submitDate","label":"تاریخ :","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Sale_submitDate","colSpan":3}],[{"type":"text","variable":"Sale_patron","var_uid":"4363333855db2041ba15f72052997860","dataType":"integer","protectedValue":false,"id":"Sale_patron","name":"Sale_patron","label":"مشتری :","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Sale_patron","colSpan":3},{"type":"text","variable":"Sale_product_Dsp","var_uid":"9673459995db2041ba37c52001142975","dataType":"string","protectedValue":false,"id":"Sale_product_Dsp","name":"Sale_product_Dsp","label":"محصول :","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Sale_product_Dsp","colSpan":3},{"type":"textarea","variable":"Sale_description","var_uid":"6629749125db2041ba2c0e1094471105","dataType":"string","protectedValue":false,"id":"Sale_description","name":"Sale_description","label":"توضیحات :","defaultValue":"---","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","validate":"","validateMessage":"","mode":"view","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","rows":"5","var_name":"Sale_description","colSpan":6}],[{"colSpan":3},{"colSpan":3},{"type":"grid","variable":"Sale_contacts","var_uid":"8952133745db2041ba17099067952291","dataType":"grid","protectedValue":false,"id":"Sale_contacts","name":"Sale_contacts","label":"مخاطبین پروژه ","hint":"","required":false,"requiredFieldErrorMessage":"","columns":[{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"Sale_contacts_name","name":"Sale_contacts_name","label":"نام","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","columnWidth":"50","width":100,"title":"نام","var_name":"Sale_contacts"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"Sale_contacts_contact","name":"Sale_contacts_contact","label":"آدرس ارتباطی","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","columnWidth":"50","width":100,"title":"آدرس ارتباطی"}],"data":[],"mode":"parent","layout":"responsive","pageSize":"0","addRow":true,"deleteRow":false,"title":"مخاطبین پروژه ","colSpan":6}],[{"type":"title","id":"title0000000002","label":"بازاریابی","colSpan":4},{"colSpan":4},{"colSpan":4}],[{"type":"text","variable":"Marketing_manager","var_uid":"4668698855db2041ba0e464021615604","dataType":"string","protectedValue":false,"id":"Marketing_manager","name":"Marketing_manager","label":"مدیر بازاریابی :","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Marketing_manager","colSpan":3},{"colSpan":3},{"colSpan":3},{"type":"text","variable":"Marketing_submitDate","var_uid":"7712461975db2041ba426a4015461968","dataType":"string","protectedValue":false,"id":"Marketing_submitDate","name":"Marketing_submitDate","label":"تاریخ :","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Marketing_submitDate","colSpan":3}],[{"type":"text","variable":"Marketing_totalSpentTime","var_uid":"5596862325db2041ba448c3058373149","dataType":"integer","protectedValue":false,"id":"Marketing_totalSpentTime","name":"Marketing_totalSpentTime","label":"مجموع زمان صرف شده :","defaultValue":"---","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Marketing_totalSpentTime","colSpan":3},{"type":"text","variable":"Marketing_totalDelay","var_uid":"9441259145db2041ba1c8b2004356168","dataType":"integer","protectedValue":false,"id":"Marketing_totalDelay","name":"Marketing_totalDelay","label":"مجموع تاخیر :","defaultValue":"---","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Marketing_totalDelay","colSpan":3},{"type":"text","variable":"Marketing_state","var_uid":"4784792635db2041ba118f8084762441","dataType":"string","protectedValue":false,"id":"Marketing_state","name":"Marketing_state","label":"وضعیت :","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Marketing_state","colSpan":6}],[{"type":"text","variable":"Marketing_reviewer","var_uid":"1996580555db2041ba192f8036310259","dataType":"string","protectedValue":false,"id":"Marketing_reviewer","name":"Marketing_reviewer","label":"آخرین ناظر :","defaultValue":"---","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Marketing_reviewer","colSpan":3},{"type":"text","variable":"Marketing_latestReviewDate","var_uid":"9929675715db2041ba50484012484316","dataType":"string","protectedValue":false,"id":"Marketing_latestReviewDate","name":"Marketing_latestReviewDate","label":"تاریخ آخرین نظارت :","defaultValue":"---","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Marketing_latestReviewDate","colSpan":3},{"colSpan":6}],[{"type":"grid","variable":"Marketing_holding","var_uid":"4994948015db2041ba1da79078497482","dataType":"grid","protectedValue":false,"id":"Marketing_holding","name":"Marketing_holding","label":"تاریخچه پیگیری :","hint":"","required":false,"requiredFieldErrorMessage":"","columns":[{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"marketing_holding_Owner","name":"marketing_holding_Owner","label":"پیگیر","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","columnWidth":"20","width":100,"title":"پیگیر"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"marketing_holding_Submit_Date","name":"marketing_holding_Submit_Date","label":"تاریخ پیگیری","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","columnWidth":"20","width":100,"title":"تاریخ پیگیری"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"marketing_holding_Spent_Time","name":"marketing_holding_Spent_Time","label":"زمان صرف شده","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","columnWidth":"20","width":100,"title":"زمان صرف شده"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"marketing_holding_Description","name":"marketing_holding_Description","label":"توضیحات","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","columnWidth":"20","width":100,"title":"توضیحات"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"marketing_holding_Delay","name":"marketing_holding_Delay","label":"تاخیر","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","columnWidth":"10","width":100,"title":"تاخیر"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"marketing_holding_Result","name":"marketing_holding_Result","label":"نتیجه پیگیری","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","columnWidth":"10","width":100,"title":"نتیجه پیگیری"}],"data":[],"mode":"view","layout":"responsive","pageSize":"0","addRow":false,"deleteRow":false,"title":"تاریخچه پیگیری :","colSpan":12}],[{"type":"title","id":"title0000000004","label":"تعیین وضعیت بازاریابی","colSpan":4},{"colSpan":4},{"colSpan":4}],[{"type":"radio","variable":"Marketing_priority","var_uid":"4565281525db2041ba46b97017448413","dataType":"integer","protectedValue":false,"id":"Marketing_priority","name":"Marketing_priority","label":"اولویت :","defaultValue":"","hint":"","required":true,"requiredFieldErrorMessage":"","mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","options":[{"value":"1","label":"خیلی پایین"},{"value":"2","label":"پایین"},{"value":"3","label":"متوسط"}],"var_name":"Marketing_priority","colSpan":3},{"colSpan":3},{"colSpan":3},{"type":"text","variable":"latest_marketing_ReviewDate","var_uid":"8035799915db2041ba236b6074824001","dataType":"string","protectedValue":false,"id":"latest_marketing_ReviewDate","name":"latest_marketing_ReviewDate","label":"تاریخ  :","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"latest_marketing_ReviewDate","colSpan":3}],[{"type":"dropdown","variable":"latest_marketing_ReviewResult","var_uid":"2923321925db2041ba48d92071096813","dataType":"integer","protectedValue":false,"id":"latest_marketing_ReviewResult","name":"latest_marketing_ReviewResult","label":"تعیین وضعیت :","defaultValue":"","placeholder":"","hint":"","required":true,"requiredFieldErrorMessage":"","mode":"parent","datasource":"database","dbConnection":"3369816905d579ef34e2094076840766","dbConnectionLabel":"[127.0.0.1:3306] mysql: miraakaam","sql":"SELECT state.Id, state.State FROM state","dataVariable":"","options":[],"var_name":"latest_marketing_ReviewResult","colSpan":3},{"type":"dropdown","variable":"latest_marketing_holding_Pass_To","var_uid":"6883678345db2041ba35a61049514424","dataType":"string","protectedValue":false,"id":"latest_marketing_holding_Pass_To","name":"latest_marketing_holding_Pass_To","label":"پیگیر بعدی :","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","mode":"parent","datasource":"database","dbConnection":"4206344695d61148112e203038000953","dbConnectionLabel":"[127.0.0.1:3306] mysql: bitnami_pm","sql":"SELECT users.USR_UID, CONCAT(users.USR_FIRSTNAME , ' ', users.USR_LASTNAME) FROM users","dataVariable":"","options":[],"var_name":"latest_marketing_holding_Pass_To","colSpan":3},{"type":"textarea","variable":"Marketing_description","var_uid":"2574455575db2041ba1a460007604018","dataType":"string","protectedValue":false,"id":"Marketing_description","name":"Marketing_description","label":"توضیحات :","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","validate":"","validateMessage":"","mode":"edit","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","rows":"5","var_name":"Marketing_description","colSpan":6}],[{"type":"submit","id":"submit1","name":"submit","label":"ثبت","colSpan":12}]],"variables":[{"var_uid":"6668383845db2041ba4f368003709224","prj_uid":"1690820545db20418745184096291739","var_name":"Sale_manager","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"6668383845db2041ba4f368003709224","var_name_old":"Sale_manager","prj_uid_old":"1690820545db20418745184096291739","create":false},{"var_uid":"8113348625db2041ba404a2059512545","prj_uid":"1690820545db20418745184096291739","var_name":"Sale_submitDate","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"8113348625db2041ba404a2059512545","var_name_old":"Sale_submitDate","prj_uid_old":"1690820545db20418745184096291739","create":false},{"var_uid":"4363333855db2041ba15f72052997860","prj_uid":"1690820545db20418745184096291739","var_name":"Sale_patron","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"4363333855db2041ba15f72052997860","var_name_old":"Sale_patron","prj_uid_old":"1690820545db20418745184096291739","create":false},{"var_uid":"9673459995db2041ba37c52001142975","prj_uid":"1690820545db20418745184096291739","var_name":"Sale_product_Dsp","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"9673459995db2041ba37c52001142975","var_name_old":"Sale_product_Dsp","prj_uid_old":"1690820545db20418745184096291739","create":false},{"var_uid":"6629749125db2041ba2c0e1094471105","prj_uid":"1690820545db20418745184096291739","var_name":"Sale_description","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"6629749125db2041ba2c0e1094471105","var_name_old":"Sale_description","prj_uid_old":"1690820545db20418745184096291739","create":false},{"var_uid":"8952133745db2041ba17099067952291","prj_uid":"1690820545db20418745184096291739","var_name":"Sale_contacts","var_field_type":"grid","var_field_size":10,"var_label":"grid","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"8952133745db2041ba17099067952291","var_name_old":"Sale_contacts","prj_uid_old":"1690820545db20418745184096291739","create":false},{"var_uid":"4668698855db2041ba0e464021615604","prj_uid":"1690820545db20418745184096291739","var_name":"Marketing_manager","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"4668698855db2041ba0e464021615604","var_name_old":"Marketing_manager","prj_uid_old":"1690820545db20418745184096291739","create":false},{"var_uid":"7712461975db2041ba426a4015461968","prj_uid":"1690820545db20418745184096291739","var_name":"Marketing_submitDate","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"7712461975db2041ba426a4015461968","var_name_old":"Marketing_submitDate","prj_uid_old":"1690820545db20418745184096291739","create":false},{"var_uid":"5596862325db2041ba448c3058373149","prj_uid":"1690820545db20418745184096291739","var_name":"Marketing_totalSpentTime","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"3369816905d579ef34e2094076840766","var_dbconnection_label":"[127.0.0.1:3306] mysql: miraakaam","var_sql":"SELECT `marketing`.`Total_SpentTime` FROM `marketing` WHERE `marketing`.`Id` = @@marketing_Id;","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"5596862325db2041ba448c3058373149","var_name_old":"Marketing_totalSpentTime","prj_uid_old":"1690820545db20418745184096291739","create":false},{"var_uid":"9441259145db2041ba1c8b2004356168","prj_uid":"1690820545db20418745184096291739","var_name":"Marketing_totalDelay","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"9441259145db2041ba1c8b2004356168","var_name_old":"Marketing_totalDelay","prj_uid_old":"1690820545db20418745184096291739","create":false},{"var_uid":"4784792635db2041ba118f8084762441","prj_uid":"1690820545db20418745184096291739","var_name":"Marketing_state","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"4784792635db2041ba118f8084762441","var_name_old":"Marketing_state","prj_uid_old":"1690820545db20418745184096291739","create":false},{"var_uid":"1996580555db2041ba192f8036310259","prj_uid":"1690820545db20418745184096291739","var_name":"Marketing_reviewer","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"1996580555db2041ba192f8036310259","var_name_old":"Marketing_reviewer","prj_uid_old":"1690820545db20418745184096291739","create":false},{"var_uid":"9929675715db2041ba50484012484316","prj_uid":"1690820545db20418745184096291739","var_name":"Marketing_latestReviewDate","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"9929675715db2041ba50484012484316","var_name_old":"Marketing_latestReviewDate","prj_uid_old":"1690820545db20418745184096291739","create":false},{"var_uid":"4565281525db2041ba46b97017448413","prj_uid":"1690820545db20418745184096291739","var_name":"Marketing_priority","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[{"value":"1","label":"خیلی پایین"},{"value":"2","label":"پایین"},{"value":"3","label":"متوسط"}],"inp_doc_uid":""},{"var_uid":"8035799915db2041ba236b6074824001","prj_uid":"1690820545db20418745184096291739","var_name":"latest_marketing_ReviewDate","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":""},{"var_uid":"2923321925db2041ba48d92071096813","prj_uid":"1690820545db20418745184096291739","var_name":"latest_marketing_ReviewResult","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"6883678345db2041ba35a61049514424","prj_uid":"1690820545db20418745184096291739","var_name":"latest_marketing_holding_Pass_To","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"2574455575db2041ba1a460007604018","prj_uid":"1690820545db20418745184096291739","var_name":"Marketing_description","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"2574455575db2041ba1a460007604018","var_name_old":"Marketing_description","prj_uid_old":"1690820545db20418745184096291739","create":false}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2019-12-02 19:17:09]]></dyn_update_date>
+      </record>
+      <record>
+        <dyn_uid>5130042925db2041b9d2a76061110062</dyn_uid>
+        <dyn_title><![CDATA[فرم پیگیری بازاریابی]]></dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>1690820545db20418745184096291739</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[1415055385d4e76c053a244016936498\6091678335d60ef790bb675004475378]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"فرم پیگیری بازاریابی","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"5130042925db2041b9d2a76061110062","name":"فرم پیگیری بازاریابی","description":"","mode":"edit","script":{"type":"js","code":"$(\"#latest_marketing_holding_Deadline\").find(\"input\").datepicker();"},"language":"en","externalLibs":"/lib/pmdynaform/libs/datepicker/jalali/bootstrap-datepicker.js,/lib/pmdynaform/libs/datepicker/jalali/bootstrap-datepicker.css,/lib/pmdynaform/libs/datepicker/jalali/bootstrap-datepicker.fa.js","printable":false,"items":[[{"type":"title","id":"title0000000003","label":"پروژه","colSpan":4},{"colSpan":4},{"colSpan":4}],[{"type":"text","variable":"Sale_manager","var_uid":"6668383845db2041ba4f368003709224","dataType":"string","protectedValue":false,"id":"Sale_manager","name":"Sale_manager","label":"مدیر پروژه :","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Sale_manager","colSpan":3},{"colSpan":3},{"colSpan":3},{"type":"text","variable":"Sale_submitDate","var_uid":"8113348625db2041ba404a2059512545","dataType":"string","protectedValue":false,"id":"Sale_submitDate","name":"Sale_submitDate","label":"تاریخ :","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Sale_submitDate","colSpan":3}],[{"type":"text","variable":"Sale_patron","var_uid":"4363333855db2041ba15f72052997860","dataType":"integer","protectedValue":false,"id":"Sale_patron","name":"Sale_patron","label":"مشتری :","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Sale_patron","colSpan":3},{"type":"text","variable":"Sale_product_Dsp","var_uid":"9673459995db2041ba37c52001142975","dataType":"string","protectedValue":false,"id":"Sale_product_Dsp","name":"Sale_product_Dsp","label":"محصول :","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Sale_product_Dsp","colSpan":3},{"type":"textarea","variable":"Sale_description","var_uid":"6629749125db2041ba2c0e1094471105","dataType":"string","protectedValue":false,"id":"Sale_description","name":"Sale_description","label":"توضیحات :","defaultValue":"---","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","validate":"","validateMessage":"","mode":"view","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","rows":"5","var_name":"Sale_description","colSpan":6}],[{"colSpan":3},{"colSpan":3},{"type":"grid","variable":"Sale_contacts","var_uid":"8952133745db2041ba17099067952291","dataType":"grid","protectedValue":false,"id":"Sale_contacts","name":"Sale_contacts","label":"مخاطبین پروژه ","hint":"","required":false,"requiredFieldErrorMessage":"","columns":[{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"Sale_contacts_name","name":"Sale_contacts_name","label":"نام","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","columnWidth":"50","width":100,"title":"نام","var_name":"Sale_contacts"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"Sale_contacts_contact","name":"Sale_contacts_contact","label":"آدرس ارتباطی","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","columnWidth":"50","width":100,"title":"آدرس ارتباطی"}],"data":[],"mode":"parent","layout":"responsive","pageSize":"0","addRow":true,"deleteRow":false,"title":"مخاطبین پروژه ","colSpan":6}],[{"type":"title","id":"title0000000002","label":"بازاریابی","colSpan":4},{"colSpan":4},{"colSpan":4}],[{"type":"text","variable":"Marketing_manager","var_uid":"4668698855db2041ba0e464021615604","dataType":"string","protectedValue":false,"id":"Marketing_manager","name":"Marketing_manager","label":"مدیر بازاریابی :","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Marketing_manager","colSpan":3},{"type":"radio","variable":"Marketing_priority","var_uid":"4565281525db2041ba46b97017448413","dataType":"integer","protectedValue":false,"id":"Marketing_priority","name":"Marketing_priority","label":"اولویت :","defaultValue":"","hint":"","required":false,"requiredFieldErrorMessage":"","mode":"view","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","options":[{"value":"1","label":"خیلی پایین"},{"value":"2","label":"پایین"},{"value":"3","label":"متوسط"}],"var_name":"Marketing_priority","colSpan":3},{"colSpan":3},{"type":"text","variable":"Marketing_submitDate","var_uid":"7712461975db2041ba426a4015461968","dataType":"string","protectedValue":false,"id":"Marketing_submitDate","name":"Marketing_submitDate","label":"تاریخ :","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Marketing_submitDate","colSpan":3}],[{"type":"text","variable":"Marketing_totalSpentTime","var_uid":"5596862325db2041ba448c3058373149","dataType":"integer","protectedValue":false,"id":"Marketing_totalSpentTime","name":"Marketing_totalSpentTime","label":"مجموع زمان صرف شده :","defaultValue":"---","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Marketing_totalSpentTime","colSpan":3},{"type":"text","variable":"Marketing_totalDelay","var_uid":"9441259145db2041ba1c8b2004356168","dataType":"integer","protectedValue":false,"id":"Marketing_totalDelay","name":"Marketing_totalDelay","label":"مجموع تاخیر :","defaultValue":"---","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Marketing_totalDelay","colSpan":3},{"type":"text","variable":"Marketing_state","var_uid":"4784792635db2041ba118f8084762441","dataType":"string","protectedValue":false,"id":"Marketing_state","name":"Marketing_state","label":"وضعیت :","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Marketing_state","colSpan":6}],[{"type":"text","variable":"Marketing_reviewer","var_uid":"1996580555db2041ba192f8036310259","dataType":"string","protectedValue":false,"id":"Marketing_reviewer","name":"Marketing_reviewer","label":"ناظر :","defaultValue":"---","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Marketing_reviewer","colSpan":3},{"type":"text","variable":"Marketing_latestReviewDate","var_uid":"9929675715db2041ba50484012484316","dataType":"string","protectedValue":false,"id":"Marketing_latestReviewDate","name":"Marketing_latestReviewDate","label":"تاریخ نظارت :","defaultValue":"---","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Marketing_latestReviewDate","colSpan":3},{"type":"textarea","variable":"Marketing_description","var_uid":"2574455575db2041ba1a460007604018","dataType":"string","protectedValue":false,"id":"Marketing_description","name":"Marketing_description","label":"توضیحات :","defaultValue":"---","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","validate":"","validateMessage":"","mode":"view","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","rows":"5","var_name":"Marketing_description","colSpan":6}],[{"type":"title","id":"title0000000004","label":"پیگیری بازاریابی","colSpan":4},{"colSpan":4},{"colSpan":4}],[{"type":"text","variable":"latest_marketing_holding_Submit_Date","var_uid":"6883126485db2041ba2d1d9015401391","dataType":"string","protectedValue":false,"id":"latest_marketing_holding_Submit_Date","name":"latest_marketing_holding_Submit_Date","label":"تاریخ پیگیری :","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"latest_marketing_holding_Submit_Date","colSpan":3},{"colSpan":3},{"colSpan":3},{"type":"text","variable":"current_marketing_holding_Deadline","var_uid":"2194632915db2041ba181d1042579941","dataType":"string","protectedValue":false,"id":"current_marketing_holding_Deadline","name":"current_marketing_holding_Deadline","label":"مهلت پیگیری :","defaultValue":"---","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"current_marketing_holding_Deadline","colSpan":3}],[{"type":"text","variable":"latest_marketing_holding_Spent_Time","var_uid":"6492119765db2041ba52656011026885","dataType":"integer","protectedValue":false,"id":"latest_marketing_holding_Spent_Time","name":"latest_marketing_holding_Spent_Time","label":"زمان صرف شده :","defaultValue":"","placeholder":"","hint":"","required":true,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"latest_marketing_holding_Spent_Time","colSpan":3},{"type":"dropdown","variable":"latest_marketing_holding_Result","var_uid":"3437255185db2041ba3c098091410171","dataType":"integer","protectedValue":false,"id":"latest_marketing_holding_Result","name":"latest_marketing_holding_Result","label":"نتیجه :","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","mode":"parent","datasource":"database","dbConnection":"3369816905d579ef34e2094076840766","dbConnectionLabel":"[127.0.0.1:3306] mysql: miraakaam","sql":"SELECT holding_result.Id, holding_result.Result FROM holding_result","dataVariable":"","options":[],"var_name":"latest_marketing_holding_Result","colSpan":3},{"type":"textarea","variable":"latest_marketing_holding_Description","var_uid":"6653258025db2041ba49e92096881216","dataType":"string","protectedValue":false,"id":"latest_marketing_holding_Description","name":"latest_marketing_holding_Description","label":"توضیحات :","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","validate":"","validateMessage":"","mode":"parent","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","rows":"2","var_name":"latest_marketing_holding_Description","colSpan":6}],[{"type":"text","variable":"latest_marketing_holding_Deadline","var_uid":"5903346205db2041ba2afd4060283843","dataType":"string","protectedValue":false,"id":"latest_marketing_holding_Deadline","name":"latest_marketing_holding_Deadline","label":"مهلت پیگیری بعدی :","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"latest_marketing_holding_Deadline","colSpan":3},{"type":"dropdown","variable":"latest_marketing_holding_Pass_To","var_uid":"6883678345db2041ba35a61049514424","dataType":"string","protectedValue":false,"id":"latest_marketing_holding_Pass_To","name":"latest_marketing_holding_Pass_To","label":"پیگیر بعدی :","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","mode":"parent","datasource":"database","dbConnection":"4206344695d61148112e203038000953","dbConnectionLabel":"[127.0.0.1:3306] mysql: bitnami_pm","sql":"SELECT users.USR_UID, CONCAT(users.USR_FIRSTNAME , ' ', users.USR_LASTNAME) FROM users","dataVariable":"","options":[],"var_name":"latest_marketing_holding_Pass_To","colSpan":3},{"type":"file","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"file0000000001","name":"file0000000001","label":"file_1","hint":"","required":false,"requiredFieldErrorMessage":"","dnd":false,"extensions":"*","size":1024,"sizeUnity":"KB","mode":"parent","multiple":false,"inp_doc_uid":"","colSpan":3},{"colSpan":3}],[{"type":"grid","variable":"Marketing_holding","var_uid":"4994948015db2041ba1da79078497482","dataType":"grid","protectedValue":false,"id":"Marketing_holding","name":"Marketing_holding","label":"تاریخچه پیگیری :","hint":"","required":false,"requiredFieldErrorMessage":"","columns":[{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"marketing_holding_Owner","name":"marketing_holding_Owner","label":"پیگیر","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","columnWidth":"20","width":100,"title":"پیگیر"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"marketing_holding_Submit_Date","name":"marketing_holding_Submit_Date","label":"تاریخ پیگیری","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","columnWidth":"20","width":100,"title":"تاریخ پیگیری"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"marketing_holding_Spent_Time","name":"marketing_holding_Spent_Time","label":"زمان صرف شده","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","columnWidth":"20","width":100,"title":"زمان صرف شده"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"marketing_holding_Description","name":"marketing_holding_Description","label":"توضیحات","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","columnWidth":"20","width":100,"title":"توضیحات"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"marketing_holding_Delay","name":"marketing_holding_Delay","label":"تاخیر","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","columnWidth":"10","width":100,"title":"تاخیر"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"marketing_holding_Result","name":"marketing_holding_Result","label":"نتیجه پیگیری","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","columnWidth":"10","width":100,"title":"نتیجه پیگیری"}],"data":[],"mode":"view","layout":"responsive","pageSize":"0","addRow":false,"deleteRow":false,"title":"تاریخچه پیگیری :","colSpan":12}],[{"type":"submit","id":"submit1","name":"submit","label":"ثبت","colSpan":12}]],"variables":[{"var_uid":"6668383845db2041ba4f368003709224","prj_uid":"1690820545db20418745184096291739","var_name":"Sale_manager","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"8113348625db2041ba404a2059512545","prj_uid":"1690820545db20418745184096291739","var_name":"Sale_submitDate","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"4363333855db2041ba15f72052997860","prj_uid":"1690820545db20418745184096291739","var_name":"Sale_patron","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"9673459995db2041ba37c52001142975","prj_uid":"1690820545db20418745184096291739","var_name":"Sale_product_Dsp","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"6629749125db2041ba2c0e1094471105","prj_uid":"1690820545db20418745184096291739","var_name":"Sale_description","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"8952133745db2041ba17099067952291","prj_uid":"1690820545db20418745184096291739","var_name":"Sale_contacts","var_field_type":"grid","var_field_size":10,"var_label":"grid","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"4668698855db2041ba0e464021615604","prj_uid":"1690820545db20418745184096291739","var_name":"Marketing_manager","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"4565281525db2041ba46b97017448413","prj_uid":"1690820545db20418745184096291739","var_name":"Marketing_priority","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[{"value":"1","label":"خیلی پایین"},{"value":"2","label":"پایین"},{"value":"3","label":"متوسط"}],"inp_doc_uid":""},{"var_uid":"7712461975db2041ba426a4015461968","prj_uid":"1690820545db20418745184096291739","var_name":"Marketing_submitDate","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"5596862325db2041ba448c3058373149","prj_uid":"1690820545db20418745184096291739","var_name":"Marketing_totalSpentTime","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"3369816905d579ef34e2094076840766","var_dbconnection_label":"[127.0.0.1:3306] mysql: miraakaam","var_sql":"SELECT `marketing`.`Total_SpentTime` FROM `marketing` WHERE `marketing`.`Id` = @@marketing_Id;","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":""},{"var_uid":"9441259145db2041ba1c8b2004356168","prj_uid":"1690820545db20418745184096291739","var_name":"Marketing_totalDelay","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":""},{"var_uid":"4784792635db2041ba118f8084762441","prj_uid":"1690820545db20418745184096291739","var_name":"Marketing_state","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":""},{"var_uid":"1996580555db2041ba192f8036310259","prj_uid":"1690820545db20418745184096291739","var_name":"Marketing_reviewer","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"9929675715db2041ba50484012484316","prj_uid":"1690820545db20418745184096291739","var_name":"Marketing_latestReviewDate","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"2574455575db2041ba1a460007604018","prj_uid":"1690820545db20418745184096291739","var_name":"Marketing_description","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"6883126485db2041ba2d1d9015401391","prj_uid":"1690820545db20418745184096291739","var_name":"latest_marketing_holding_Submit_Date","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"2194632915db2041ba181d1042579941","prj_uid":"1690820545db20418745184096291739","var_name":"current_marketing_holding_Deadline","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"6492119765db2041ba52656011026885","prj_uid":"1690820545db20418745184096291739","var_name":"latest_marketing_holding_Spent_Time","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"3437255185db2041ba3c098091410171","prj_uid":"1690820545db20418745184096291739","var_name":"latest_marketing_holding_Result","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"6653258025db2041ba49e92096881216","prj_uid":"1690820545db20418745184096291739","var_name":"latest_marketing_holding_Description","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"5903346205db2041ba2afd4060283843","prj_uid":"1690820545db20418745184096291739","var_name":"latest_marketing_holding_Deadline","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"6883678345db2041ba35a61049514424","prj_uid":"1690820545db20418745184096291739","var_name":"latest_marketing_holding_Pass_To","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2019-12-02 19:11:28]]></dyn_update_date>
+      </record>
+      <record>
+        <dyn_uid>5656520095db2041b9d1836088553594</dyn_uid>
+        <dyn_title><![CDATA[فرم معرفی پروژه و بازاریابی]]></dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>1690820545db20418745184096291739</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[1415055385d4e76c053a244016936498\4128777305d5274f10035c5052912743]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"\u0641\u0631\u0645 \u0645\u0639\u0631\u0641\u06cc \u067e\u0631\u0648\u0698\u0647 \u0648 \u0628\u0627\u0632\u0627\u0631\u06cc\u0627\u0628\u06cc","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"5656520095db2041b9d1836088553594","name":"\u0641\u0631\u0645 \u0645\u0639\u0631\u0641\u06cc \u067e\u0631\u0648\u0698\u0647 \u0648 \u0628\u0627\u0632\u0627\u0631\u06cc\u0627\u0628\u06cc","description":"","mode":"edit","script":"","language":"en","externalLibs":"","printable":false,"items":[[{"type":"title","id":"title0000000001","label":"\u0645\u0639\u0631\u0641\u06cc \u0641\u0631\u0648\u0634 \u0648 \u0628\u0627\u0632\u0627\u0631\u06cc\u0627\u0628\u06cc","colSpan":4},{"colSpan":4},{"colSpan":4}],[{"colSpan":3},{"colSpan":3},{"colSpan":3},{"type":"text","variable":"Sale_submitDate","var_uid":"8113348625db2041ba404a2059512545","dataType":"string","protectedValue":false,"id":"Sale_submitDate","name":"Sale_submitDate","label":"\u062a\u0627\u0631\u06cc\u062e :","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Sale_submitDate","colSpan":3}],[{"type":"dropdown","variable":"Sale_manager","var_uid":"6668383845db2041ba4f368003709224","dataType":"string","protectedValue":false,"id":"Sale_manager","name":"Sale_manager","label":"\u0645\u062f\u06cc\u0631 \u067e\u0631\u0648\u0698\u0647 :","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","mode":"parent","datasource":"database","dbConnection":"4206344695d61148112e203038000953","dbConnectionLabel":"[127.0.0.1:3306] mysql: bitnami_pm","sql":"SELECT users.USR_UID, CONCAT(users.USR_FIRSTNAME , ' ', users.USR_LASTNAME) FROM users","dataVariable":"","options":[],"var_name":"Sale_manager","colSpan":3},{"type":"dropdown","variable":"Sale_patron","var_uid":"4363333855db2041ba15f72052997860","dataType":"integer","protectedValue":false,"id":"Sale_patron","name":"Sale_patron","label":"\u0645\u0634\u062a\u0631\u06cc :","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","mode":"parent","datasource":"database","dbConnection":"3369816905d579ef34e2094076840766","dbConnectionLabel":"[127.0.0.1:3306] mysql: miraakaam","sql":"SELECT patron.Id, patron.Name From patron","dataVariable":"","options":[],"var_name":"Sale_patron","colSpan":3},{"type":"dropdown","variable":"framework_Name","var_uid":"1791930865db2041ba33842088283174","dataType":"integer","protectedValue":false,"id":"framework_Name","name":"framework_Name","label":"\u0634\u0631\u06a9\u062a \u062a\u0648\u0644\u06cc\u062f \u06a9\u0646\u0646\u062f\u0647 \u0645\u062d\u0635\u0648\u0644 :","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","mode":"parent","datasource":"database","dbConnection":"3369816905d579ef34e2094076840766","dbConnectionLabel":"[127.0.0.1:3306] mysql: miraakaam","sql":"SELECT framework.Id, framework.Name FROM framework","dataVariable":"","options":[],"var_name":"framework_Name","colSpan":3},{"type":"dropdown","variable":"Sale_product","var_uid":"5735589365db2041ba34943096958721","dataType":"integer","protectedValue":false,"id":"Sale_product","name":"Sale_product","label":"\u0645\u062d\u0635\u0648\u0644 :","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","mode":"parent","datasource":"database","dbConnection":"3369816905d579ef34e2094076840766","dbConnectionLabel":"[127.0.0.1:3306] mysql: miraakaam","sql":"SELECT product.Id, product.Name FROM product WHERE product.Framework = @@framework_Name","dataVariable":"","options":[],"var_name":"Sale_product","colSpan":3}],[{"type":"textarea","variable":"Sale_description","var_uid":"6629749125db2041ba2c0e1094471105","dataType":"string","protectedValue":false,"id":"Sale_description","name":"Sale_description","label":"\u062a\u0648\u0636\u06cc\u062d\u0627\u062a :","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","validate":"","validateMessage":"","mode":"parent","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","rows":"4","var_name":"Sale_description","colSpan":6},{"type":"radio","variable":"Marketing_priority","var_uid":"4565281525db2041ba46b97017448413","dataType":"integer","protectedValue":false,"id":"Marketing_priority","name":"Marketing_priority","label":"\u0627\u0648\u0644\u0648\u06cc\u062a :","defaultValue":"","hint":"","required":true,"requiredFieldErrorMessage":"","mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","options":[{"value":"1","label":"\u062e\u06cc\u0644\u06cc \u067e\u0627\u06cc\u06cc\u0646"},{"value":"2","label":"\u067e\u0627\u06cc\u06cc\u0646"},{"value":"3","label":"\u0645\u062a\u0648\u0633\u0637"}],"var_name":"Marketing_priority","colSpan":6}],[{"type":"grid","variable":"Sale_contacts","var_uid":"8952133745db2041ba17099067952291","dataType":"grid","protectedValue":false,"id":"Sale_contacts","name":"Sale_contacts","label":"\u0645\u062e\u0627\u0637\u0628\u06cc\u0646 \u067e\u0631\u0648\u0698\u0647","hint":"","required":false,"requiredFieldErrorMessage":"","columns":[{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"Sale_contacts_name","name":"Sale_contacts_name","label":"\u0646\u0627\u0645 ","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","columnWidth":"50","width":100,"title":"\u0646\u0627\u0645 ","var_name":"Sale_contacts"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"Sale_contacts_contact","name":"Sale_contacts_contact","label":"\u0622\u062f\u0631\u0633 \u0627\u0631\u062a\u0628\u0627\u0637\u06cc ","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","columnWidth":"50","width":100,"title":"\u0622\u062f\u0631\u0633 \u0627\u0631\u062a\u0628\u0627\u0637\u06cc "}],"data":[],"mode":"parent","layout":"responsive","pageSize":"0","addRow":true,"deleteRow":false,"title":"\u0645\u062e\u0627\u0637\u0628\u06cc\u0646 \u067e\u0631\u0648\u0698\u0647","colSpan":6},{"colSpan":6}],[{"type":"submit","id":"submit","name":"submit","label":"\u062b\u0628\u062a","colSpan":12}]],"variables":[{"var_uid":"8113348625db2041ba404a2059512545","prj_uid":"1690820545db20418745184096291739","var_name":"Sale_submitDate","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":""},{"var_uid":"6668383845db2041ba4f368003709224","prj_uid":"1690820545db20418745184096291739","var_name":"Sale_manager","var_field_type":"string","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":""},{"var_uid":"4363333855db2041ba15f72052997860","prj_uid":"1690820545db20418745184096291739","var_name":"Sale_patron","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":""},{"var_uid":"1791930865db2041ba33842088283174","prj_uid":"1690820545db20418745184096291739","var_name":"framework_Name","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":""},{"var_uid":"5735589365db2041ba34943096958721","prj_uid":"1690820545db20418745184096291739","var_name":"Sale_product","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":""},{"var_uid":"6629749125db2041ba2c0e1094471105","prj_uid":"1690820545db20418745184096291739","var_name":"Sale_description","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":""},{"var_uid":"4565281525db2041ba46b97017448413","prj_uid":"1690820545db20418745184096291739","var_name":"Marketing_priority","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[{"value":"1","label":"\u06a9\u0645"},{"value":"2","label":"\u0645\u062a\u0648\u0633\u0637"},{"value":"3","label":"\u0632\u06cc\u0627\u062f"}],"inp_doc_uid":""},{"var_uid":"8952133745db2041ba17099067952291","prj_uid":"1690820545db20418745184096291739","var_name":"Sale_contacts","var_field_type":"grid","var_field_size":10,"var_label":"grid","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2019-10-21 22:09:11]]></dyn_update_date>
+      </record>
+    </table>
+    <table name="steps">
+      <record>
+        <step_uid>2661222235db2041b9dbc06004615046</step_uid>
+        <pro_uid>1690820545db20418745184096291739</pro_uid>
+        <tas_uid>7495089355db20419378e87054408440</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>5656520095db2041b9d1836088553594</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+      <record>
+        <step_uid>2748454865db2041b9d7140063067908</step_uid>
+        <pro_uid>1690820545db20418745184096291739</pro_uid>
+        <tas_uid>8793961875db204198cf001039288948</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>5130042925db2041b9d2a76061110062</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+      <record>
+        <step_uid>7549037825db2041b9dccb5023137840</step_uid>
+        <pro_uid>1690820545db20418745184096291739</pro_uid>
+        <tas_uid>2489397865db20419171641092116057</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>2436807445db2041b9d4dc2055593318</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+    </table>
+    <table name="triggers">
+      <record>
+        <tri_uid>1857446025db2041b9e3b18034887116</tri_uid>
+        <tri_title>1</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>1690820545db20418745184096291739</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[function persian_date_e2p($g_y, $g_m, $g_d, $mod=''){
+	$d_4 = $g_y % 4;
+	$g_a = array(0, 0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334);
+	$doy_g = $g_a[(int)$g_m] + $g_d;
+	if($d_4 == 0 AND $g_m > 2){
+		$doy_g++;
+	}
+	$d_33 = (int)(((($g_y - 16) % 132) / 132) * 4);
+	$a = ($d_33 == 3 OR $d_33 < ($d_4 - 1) OR $d_4 == 0) ? 286 : 287;
+	$b = (($d_33 == 1 OR $d_33 == 2) AND ($d_33 == $d_4 OR $d_4 == 1)) ? 78 : (($d_33 == 3 AND $d_4 == 0) ? 80 : 79);
+	if((int)(($g_y - 10) / 63) == 30){
+		$a--;
+		$b++;
+	}
+	if($doy_g > $b){
+		$jy = $g_y - 621;
+		$doy_j = $doy_g - $b;
+	}else{
+		$jy = $g_y - 622;
+		$doy_j = $doy_g + $a;
+	}
+	if($doy_j < 187){
+		$a=0;
+		$b=31;
+		$c=1;
+	}else{
+		$a=186;
+		$b=30;
+		$c=7;
+	}
+	$jm = (int)(($doy_j - $a - 1) / $b);
+	$jd = $doy_j - $a - ($jm * $b);
+	$jm += $c;
+	
+	if($jm < 10){
+		$jm = '0'.$jm;
+	}
+	
+	if($jd < 10){
+		$jd = '0'.$jd;
+	}
+	
+	return($mod == '') ? array($jy, $jm, $jd) : $jy.$mod.$jm.$mod.$jd;
+}
+
+function is_valid_datetime($dateTime){
+	$dateTime = strtotime($dateTime);
+	if(empty($dateTime)){
+		return false;
+	}else{
+		$dateTime = gmdate('Y-m-d H:i:s', $dateTime);
+		if(preg_match("/^(\d{4})-(\d{2})-(\d{2}) ([01][0-9]|2[0-3]):([0-5][0-9]):([0-5][0-9])$/", $dateTime, $matches)){
+			if(checkdate($matches[2], $matches[3], $matches[1])){
+				return true;
+			}
+		}
+	}
+    return false;
+}
+
+function persian_date_e2p_na($date){
+	if(!is_valid_datetime($date)){
+		return $date;
+	}
+	
+	$date_delimiter = substr($date, 4, 1);
+	
+	$date_array = explode($date_delimiter, $date);
+	$date_array_o = persian_date_e2p($date_array[0], $date_array[1], $date_array[2]);
+	
+	$date_o = implode($date_delimiter, $date_array_o);
+	
+	return $date_o;
+}
+
+
+//require '../../library/method.php';
+
+$date = getCurrentDate();
+$x = persian_date_e2p_na($date);
+@@Sale_submitDate = $x;]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>2032626045db2041b9e4c34042174253</tri_uid>
+        <tri_title>6</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>1690820545db20418745184096291739</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[require_once ("classes/class.marketing.php");
+///////////////////////////////////////
+@=marketing = unserialize(serialize (@=marketing));
+@=sale = @=marketing->get_saleObject();
+///////////////////////////////////////
+///////////////////////////////////////
+function persian_date_e2p($g_y, $g_m, $g_d, $mod=''){
+	$d_4 = $g_y % 4;
+	$g_a = array(0, 0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334);
+	$doy_g = $g_a[(int)$g_m] + $g_d;
+	if($d_4 == 0 AND $g_m > 2){
+		$doy_g++;
+	}
+	$d_33 = (int)(((($g_y - 16) % 132) / 132) * 4);
+	$a = ($d_33 == 3 OR $d_33 < ($d_4 - 1) OR $d_4 == 0) ? 286 : 287;
+	$b = (($d_33 == 1 OR $d_33 == 2) AND ($d_33 == $d_4 OR $d_4 == 1)) ? 78 : (($d_33 == 3 AND $d_4 == 0) ? 80 : 79);
+	if((int)(($g_y - 10) / 63) == 30){
+		$a--;
+		$b++;
+	}
+	if($doy_g > $b){
+		$jy = $g_y - 621;
+		$doy_j = $doy_g - $b;
+	}else{
+		$jy = $g_y - 622;
+		$doy_j = $doy_g + $a;
+	}
+	if($doy_j < 187){
+		$a=0;
+		$b=31;
+		$c=1;
+	}else{
+		$a=186;
+		$b=30;
+		$c=7;
+	}
+	$jm = (int)(($doy_j - $a - 1) / $b);
+	$jd = $doy_j - $a - ($jm * $b);
+	$jm += $c;
+	
+	if($jm < 10){
+		$jm = '0'.$jm;
+	}
+	
+	if($jd < 10){
+		$jd = '0'.$jd;
+	}
+	
+	return($mod == '') ? array($jy, $jm, $jd) : $jy.$mod.$jm.$mod.$jd;
+}
+
+function is_valid_datetime($dateTime){
+	$dateTime = strtotime($dateTime);
+	if(empty($dateTime)){
+		return false;
+	}else{
+		$dateTime = gmdate('Y-m-d H:i:s', $dateTime);
+		if(preg_match("/^(\d{4})-(\d{2})-(\d{2}) ([01][0-9]|2[0-3]):([0-5][0-9]):([0-5][0-9])$/", $dateTime, $matches)){
+			if(checkdate($matches[2], $matches[3], $matches[1])){
+				return true;
+			}
+		}
+	}
+    return false;
+}
+
+function persian_date_e2p_na($date){
+	if(!is_valid_datetime($date)){
+		return $date;
+	}
+	
+	$date_delimiter = substr($date, 4, 1);
+	
+	$date_array = explode($date_delimiter, $date);
+	$date_array_o = persian_date_e2p($date_array[0], $date_array[1], $date_array[2]);
+	
+	$date_o = implode($date_delimiter, $date_array_o);
+	
+	return $date_o;
+}
+$date = getCurrentDate();
+$x = persian_date_e2p_na($date);
+@@Marketing_latestReviewDate = $x;
+//////////////////////////////////////
+@=marketing->update_reviewer(@@USER_LOGGED);
+@=marketing->update_latestReviewDate(@@Marketing_latestReviewDate);
+@=marketing->update_state(@=latest_marketing_ReviewResult);
+@=marketing->update_description(@@Marketing_description);
+@=marketing->update_priority(@=Marketing_priority);
+//////////////////////////////////////
+@=sale->insert_contacts(@=Sale_contacts);]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>4542688655db2041b9e7d95099089479</tri_uid>
+        <tri_title>5</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>1690820545db20418745184096291739</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[require_once ("classes/class.marketing.php");
+///////////////////////////////////////
+@=marketing = unserialize(serialize (@=marketing));
+@=sale = @=marketing->get_saleObject();
+///////////////////////////////////////
+function persian_date_e2p($g_y, $g_m, $g_d, $mod=''){
+	$d_4 = $g_y % 4;
+	$g_a = array(0, 0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334);
+	$doy_g = $g_a[(int)$g_m] + $g_d;
+	if($d_4 == 0 AND $g_m > 2){
+		$doy_g++;
+	}
+	$d_33 = (int)(((($g_y - 16) % 132) / 132) * 4);
+	$a = ($d_33 == 3 OR $d_33 < ($d_4 - 1) OR $d_4 == 0) ? 286 : 287;
+	$b = (($d_33 == 1 OR $d_33 == 2) AND ($d_33 == $d_4 OR $d_4 == 1)) ? 78 : (($d_33 == 3 AND $d_4 == 0) ? 80 : 79);
+	if((int)(($g_y - 10) / 63) == 30){
+		$a--;
+		$b++;
+	}
+	if($doy_g > $b){
+		$jy = $g_y - 621;
+		$doy_j = $doy_g - $b;
+	}else{
+		$jy = $g_y - 622;
+		$doy_j = $doy_g + $a;
+	}
+	if($doy_j < 187){
+		$a=0;
+		$b=31;
+		$c=1;
+	}else{
+		$a=186;
+		$b=30;
+		$c=7;
+	}
+	$jm = (int)(($doy_j - $a - 1) / $b);
+	$jd = $doy_j - $a - ($jm * $b);
+	$jm += $c;
+	
+	if($jm < 10){
+		$jm = '0'.$jm;
+	}
+	
+	if($jd < 10){
+		$jd = '0'.$jd;
+	}
+	
+	return($mod == '') ? array($jy, $jm, $jd) : $jy.$mod.$jm.$mod.$jd;
+}
+
+function is_valid_datetime($dateTime){
+	$dateTime = strtotime($dateTime);
+	if(empty($dateTime)){
+		return false;
+	}else{
+		$dateTime = gmdate('Y-m-d H:i:s', $dateTime);
+		if(preg_match("/^(\d{4})-(\d{2})-(\d{2}) ([01][0-9]|2[0-3]):([0-5][0-9]):([0-5][0-9])$/", $dateTime, $matches)){
+			if(checkdate($matches[2], $matches[3], $matches[1])){
+				return true;
+			}
+		}
+	}
+    return false;
+}
+
+function persian_date_e2p_na($date){
+	if(!is_valid_datetime($date)){
+		return $date;
+	}
+	
+	$date_delimiter = substr($date, 4, 1);
+	
+	$date_array = explode($date_delimiter, $date);
+	$date_array_o = persian_date_e2p($date_array[0], $date_array[1], $date_array[2]);
+	
+	$date_o = implode($date_delimiter, $date_array_o);
+	
+	return $date_o;
+}
+$date = getCurrentDate();
+$x = persian_date_e2p_na($date);
+@@latest_marketing_ReviewDate = $x;
+//////////////////////////////////////
+//////////////////////////////////////
+@@Sale_manager = @=sale->get_manager_Dsp();
+@@Sale_patron = @=sale->get_patron_Dsp();
+@@Sale_product_Dsp = @=sale->get_product_Dsp();
+@@Sale_submitDate = @=sale->get_submitDate();
+@@Sale_description = @=sale->get_description();
+@=Sale_contacts = @=sale->get_contacts(NULL, NULL, 'Sale_contacts_name', 'Sale_contacts_contact');
+//////////////////////////////////////
+@@Marketing_manager = @=marketing->get_manager_Dsp();
+@@Marketing_submitDate = @=marketing->get_submitDate();
+@=Marketing_totalSpentTime = @=marketing->get_totalSpentTime();
+//@=Marketing_totalDelay = @=marketing->get_totalDelay();
+@@Marketing_state = @=marketing->get_state_Dsp();
+@@Marketing_reviewer = @=marketing->get_reviewer_Dsp();
+@@Marketing_latestReviewDate = @=marketing->get_latestReviewDate();
+@@Marketing_description = @=marketing->get_description();
+@=Marketing_priority = @=marketing->get_priority();
+
+@=Marketing_holding = @=marketing->get_holding(NULL, NULL, "marketing_holding_Owner", "marketing_holding_Description", "marketing_holding_Submit_Date", NULL, "marketing_holding_Delay", "marketing_holding_Spent_Time", "marketing_holding_Result", NULL);]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>5043352615db2041b9ece20050970967</tri_uid>
+        <tri_title>4</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>1690820545db20418745184096291739</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[require_once ("classes/class.marketing.php");
+///////////////////////////////////////
+@=marketing = unserialize(serialize (@=marketing));
+@=sale = @=marketing->get_saleObject();
+///////////////////////////////////////
+///////////////////////////////////////
+function persian_date_e2p($g_y, $g_m, $g_d, $mod=''){
+	$d_4 = $g_y % 4;
+	$g_a = array(0, 0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334);
+	$doy_g = $g_a[(int)$g_m] + $g_d;
+	if($d_4 == 0 AND $g_m > 2){
+		$doy_g++;
+	}
+	$d_33 = (int)(((($g_y - 16) % 132) / 132) * 4);
+	$a = ($d_33 == 3 OR $d_33 < ($d_4 - 1) OR $d_4 == 0) ? 286 : 287;
+	$b = (($d_33 == 1 OR $d_33 == 2) AND ($d_33 == $d_4 OR $d_4 == 1)) ? 78 : (($d_33 == 3 AND $d_4 == 0) ? 80 : 79);
+	if((int)(($g_y - 10) / 63) == 30){
+		$a--;
+		$b++;
+	}
+	if($doy_g > $b){
+		$jy = $g_y - 621;
+		$doy_j = $doy_g - $b;
+	}else{
+		$jy = $g_y - 622;
+		$doy_j = $doy_g + $a;
+	}
+	if($doy_j < 187){
+		$a=0;
+		$b=31;
+		$c=1;
+	}else{
+		$a=186;
+		$b=30;
+		$c=7;
+	}
+	$jm = (int)(($doy_j - $a - 1) / $b);
+	$jd = $doy_j - $a - ($jm * $b);
+	$jm += $c;
+	
+	if($jm < 10){
+		$jm = '0'.$jm;
+	}
+	
+	if($jd < 10){
+		$jd = '0'.$jd;
+	}
+	
+	return($mod == '') ? array($jy, $jm, $jd) : $jy.$mod.$jm.$mod.$jd;
+}
+
+function is_valid_datetime($dateTime){
+	$dateTime = strtotime($dateTime);
+	if(empty($dateTime)){
+		return false;
+	}else{
+		$dateTime = gmdate('Y-m-d H:i:s', $dateTime);
+		if(preg_match("/^(\d{4})-(\d{2})-(\d{2}) ([01][0-9]|2[0-3]):([0-5][0-9]):([0-5][0-9])$/", $dateTime, $matches)){
+			if(checkdate($matches[2], $matches[3], $matches[1])){
+				return true;
+			}
+		}
+	}
+    return false;
+}
+
+function persian_date_e2p_na($date){
+	if(!is_valid_datetime($date)){
+		return $date;
+	}
+	
+	$date_delimiter = substr($date, 4, 1);
+	
+	$date_array = explode($date_delimiter, $date);
+	$date_array_o = persian_date_e2p($date_array[0], $date_array[1], $date_array[2]);
+	
+	$date_o = implode($date_delimiter, $date_array_o);
+	
+	return $date_o;
+}
+$date = getCurrentDate();
+$x = persian_date_e2p_na($date);
+@@latest_marketing_holding_Submit_Date = $x;
+//////////////////////////////////////
+@=marketing->insert_marketing_holding (@@USER_LOGGED, @@latest_marketing_holding_Description, @@latest_marketing_holding_Submit_Date, @@latest_marketing_holding_Deadline, @@latest_marketing_holding_Spent_Time, @@latest_marketing_holding_Result, @@latest_marketing_holding_Pass_To);
+////////////////////////////////////////
+@=sale->insert_contacts(@=Sale_contacts);]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>5946659325db2041b9e5cb2069686323</tri_uid>
+        <tri_title>3</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>1690820545db20418745184096291739</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[require_once ("classes/class.marketing.php");
+///////////////////////////////////////
+@=marketing = unserialize(serialize (@=marketing));
+@=sale = @=marketing->get_saleObject();
+///////////////////////////////////////
+function persian_date_e2p($g_y, $g_m, $g_d, $mod=''){
+	$d_4 = $g_y % 4;
+	$g_a = array(0, 0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334);
+	$doy_g = $g_a[(int)$g_m] + $g_d;
+	if($d_4 == 0 AND $g_m > 2){
+		$doy_g++;
+	}
+	$d_33 = (int)(((($g_y - 16) % 132) / 132) * 4);
+	$a = ($d_33 == 3 OR $d_33 < ($d_4 - 1) OR $d_4 == 0) ? 286 : 287;
+	$b = (($d_33 == 1 OR $d_33 == 2) AND ($d_33 == $d_4 OR $d_4 == 1)) ? 78 : (($d_33 == 3 AND $d_4 == 0) ? 80 : 79);
+	if((int)(($g_y - 10) / 63) == 30){
+		$a--;
+		$b++;
+	}
+	if($doy_g > $b){
+		$jy = $g_y - 621;
+		$doy_j = $doy_g - $b;
+	}else{
+		$jy = $g_y - 622;
+		$doy_j = $doy_g + $a;
+	}
+	if($doy_j < 187){
+		$a=0;
+		$b=31;
+		$c=1;
+	}else{
+		$a=186;
+		$b=30;
+		$c=7;
+	}
+	$jm = (int)(($doy_j - $a - 1) / $b);
+	$jd = $doy_j - $a - ($jm * $b);
+	$jm += $c;
+	
+	if($jm < 10){
+		$jm = '0'.$jm;
+	}
+	
+	if($jd < 10){
+		$jd = '0'.$jd;
+	}
+	
+	return($mod == '') ? array($jy, $jm, $jd) : $jy.$mod.$jm.$mod.$jd;
+}
+
+function is_valid_datetime($dateTime){
+	$dateTime = strtotime($dateTime);
+	if(empty($dateTime)){
+		return false;
+	}else{
+		$dateTime = gmdate('Y-m-d H:i:s', $dateTime);
+		if(preg_match("/^(\d{4})-(\d{2})-(\d{2}) ([01][0-9]|2[0-3]):([0-5][0-9]):([0-5][0-9])$/", $dateTime, $matches)){
+			if(checkdate($matches[2], $matches[3], $matches[1])){
+				return true;
+			}
+		}
+	}
+    return false;
+}
+
+function persian_date_e2p_na($date){
+	if(!is_valid_datetime($date)){
+		return $date;
+	}
+	
+	$date_delimiter = substr($date, 4, 1);
+	
+	$date_array = explode($date_delimiter, $date);
+	$date_array_o = persian_date_e2p($date_array[0], $date_array[1], $date_array[2]);
+	
+	$date_o = implode($date_delimiter, $date_array_o);
+	
+	return $date_o;
+}
+$date = getCurrentDate();
+$x = persian_date_e2p_na($date);
+@@latest_marketing_holding_Submit_Date = $x;
+//////////////////////////////////////
+@@Sale_manager = @=sale->get_manager_Dsp();
+@@Sale_patron = @=sale->get_patron_Dsp();
+@@Sale_product_Dsp = @=sale->get_product_Dsp();
+@@Sale_submitDate = @=sale->get_submitDate();
+@@Sale_description = @=sale->get_description();
+@=Sale_contacts = @=sale->get_contacts(NULL, NULL, 'Sale_contacts_name', 'Sale_contacts_contact');
+//////////////////////////////////////
+@@Marketing_manager = @=marketing->get_manager_Dsp();
+@@Marketing_submitDate = @=marketing->get_submitDate();
+@=Marketing_totalSpentTime = @=marketing->get_totalSpentTime();
+@=Marketing_totalDelay = @=marketing->get_totalDelay();
+@@Marketing_state = @=marketing->get_state_Dsp();
+@@Marketing_reviewer = @=marketing->get_reviewer_Dsp();
+@@Marketing_latestReviewDate = @=marketing->get_latestReviewDate();
+@@Marketing_description = @=marketing->get_description();
+@=Marketing_priority = @=marketing->get_priority();
+/////////////////////////////////////
+//@@current_marketing_holding_Deadline = @=marketing->get_current_holding_Deadline();
+
+@=Marketing_holding = @=marketing->get_holding(NULL, NULL, "marketing_holding_Owner", "marketing_holding_Description", "marketing_holding_Submit_Date", NULL, "marketing_holding_Delay", "marketing_holding_Spent_Time", "marketing_holding_Result", NULL);]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>7684989105db2041b9e9dd6002930398</tri_uid>
+        <tri_title>2</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>1690820545db20418745184096291739</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[require_once "classes/class.marketing.php";
+////////////////////////////////////////////
+@&sale = new Sale(NULL, @@APPLICATION, @@Sale_manager, @@Sale_patron, @@Sale_product, @@Sale_submitDate, @@Sale_description);
+@&marketing = new Marketing(NULL, @=sale->get_manager(), @=sale->get_submitDate(), @=sale->get_description(), @=Marketing_priority, @=sale);
+@@latest_marketing_holding_Pass_To = @=sale->get_manager();
+@=sale->insert_contacts(@=Sale_contacts);]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+    </table>
+    <table name="taskusers"/>
+    <table name="groupwfs"/>
+    <table name="steptriggers">
+      <record>
+        <step_uid>2661222235db2041b9dbc06004615046</step_uid>
+        <tas_uid>7495089355db20419378e87054408440</tas_uid>
+        <tri_uid>1857446025db2041b9e3b18034887116</tri_uid>
+        <st_type>BEFORE</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+      <record>
+        <step_uid>2661222235db2041b9dbc06004615046</step_uid>
+        <tas_uid>7495089355db20419378e87054408440</tas_uid>
+        <tri_uid>7684989105db2041b9e9dd6002930398</tri_uid>
+        <st_type>AFTER</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+      <record>
+        <step_uid>2748454865db2041b9d7140063067908</step_uid>
+        <tas_uid>8793961875db204198cf001039288948</tas_uid>
+        <tri_uid>5043352615db2041b9ece20050970967</tri_uid>
+        <st_type>AFTER</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+      <record>
+        <step_uid>2748454865db2041b9d7140063067908</step_uid>
+        <tas_uid>8793961875db204198cf001039288948</tas_uid>
+        <tri_uid>5946659325db2041b9e5cb2069686323</tri_uid>
+        <st_type>BEFORE</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+      <record>
+        <step_uid>7549037825db2041b9dccb5023137840</step_uid>
+        <tas_uid>2489397865db20419171641092116057</tas_uid>
+        <tri_uid>2032626045db2041b9e4c34042174253</tri_uid>
+        <st_type>AFTER</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+      <record>
+        <step_uid>7549037825db2041b9dccb5023137840</step_uid>
+        <tas_uid>2489397865db20419171641092116057</tas_uid>
+        <tri_uid>4542688655db2041b9e7d95099089479</tri_uid>
+        <st_type>BEFORE</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+    </table>
+    <table name="dbconnections">
+      <record>
+        <dbs_uid>3369816905d579ef34e2094076840766</dbs_uid>
+        <pro_uid>1690820545db20418745184096291739</pro_uid>
+        <dbs_type>mysql</dbs_type>
+        <dbs_server>127.0.0.1</dbs_server>
+        <dbs_database_name>miraakaam</dbs_database_name>
+        <dbs_username>root</dbs_username>
+        <dbs_password><![CDATA[np+cppY_2NnV3ujj3w]]></dbs_password>
+        <dbs_port>3306</dbs_port>
+        <dbs_encode>utf8</dbs_encode>
+        <dbs_connection_type>NORMAL</dbs_connection_type>
+        <dbs_tns></dbs_tns>
+        <dbs_description></dbs_description>
+      </record>
+      <record>
+        <dbs_uid>4206344695d61148112e203038000953</dbs_uid>
+        <pro_uid>1690820545db20418745184096291739</pro_uid>
+        <dbs_type>mysql</dbs_type>
+        <dbs_server>127.0.0.1</dbs_server>
+        <dbs_database_name>bitnami_pm</dbs_database_name>
+        <dbs_username>root</dbs_username>
+        <dbs_password>npScqKM_2NnV3ujj3w</dbs_password>
+        <dbs_port>3306</dbs_port>
+        <dbs_encode>utf8</dbs_encode>
+        <dbs_connection_type>NORMAL</dbs_connection_type>
+        <dbs_tns></dbs_tns>
+        <dbs_description></dbs_description>
+      </record>
+    </table>
+    <table name="reportTables"/>
+    <table name="reportTablesVars"/>
+    <table name="stepSupervisor"/>
+    <table name="objectPermissions"/>
+    <table name="subProcess">
+      <record>
+        <sp_uid>5699723735db20655251cf9005972969</sp_uid>
+        <pro_uid>2092084255db1ac95425d48051107869</pro_uid>
+        <tas_uid>3236403735db1ac966373e1040792723</tas_uid>
+        <pro_parent>1690820545db20418745184096291739</pro_parent>
+        <tas_parent>7208521695db2065518a722040764176</tas_parent>
+        <sp_type>SIMPLE</sp_type>
+        <sp_synchronous>0</sp_synchronous>
+        <sp_synchronous_type>ALL</sp_synchronous_type>
+        <sp_synchronous_wait>0</sp_synchronous_wait>
+        <sp_variables_out><![CDATA[a:1:{s:6:"@=sale";s:6:"@=sale";}]]></sp_variables_out>
+        <sp_variables_in><![CDATA[a:0:{}]]></sp_variables_in>
+        <sp_grid_in></sp_grid_in>
+      </record>
+    </table>
+    <table name="caseTracker">
+      <record>
+        <pro_uid>1690820545db20418745184096291739</pro_uid>
+        <ct_map_type>PROCESSMAP</ct_map_type>
+        <ct_derivation_history>1</ct_derivation_history>
+        <ct_message_history>1</ct_message_history>
+      </record>
+    </table>
+    <table name="caseTrackerObject"/>
+    <table name="stage"/>
+    <table name="fieldCondition"/>
+    <table name="event"/>
+    <table name="caseScheduler"/>
+    <table name="processCategory"/>
+    <table name="taskExtraProperties"/>
+    <table name="processUser"/>
+    <table name="processVariables">
+      <record>
+        <var_uid>1626886775db2041ba13cd2063098718</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>latest_marketing_holding_Owner</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>1791930865db2041ba33842088283174</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>framework_Name</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>1996580555db2041ba192f8036310259</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>Marketing_reviewer</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>2027471425db2041ba3d182054987824</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>Sale_id</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>2194632915db2041ba181d1042579941</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>current_marketing_holding_Deadline</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>2378159425db2041ba2e2f9016829702</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>Sale_finishDate</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>2574455575db2041ba1a460007604018</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>Marketing_description</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>2718478915db2041ba3f398049771292</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>Marketing_id</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>2923321925db2041ba48d92071096813</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>latest_marketing_ReviewResult</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>3437255185db2041ba3c098091410171</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>latest_marketing_holding_Result</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>4363333855db2041ba15f72052997860</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>Sale_patron</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>4565281525db2041ba46b97017448413</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>Marketing_priority</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[{"value":"1","label":"\u062e\u06cc\u0644\u06cc \u067e\u0627\u06cc\u06cc\u0646"},{"value":"2","label":"\u067e\u0627\u06cc\u06cc\u0646"},{"value":"3","label":"\u0645\u062a\u0648\u0633\u0637"}]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>4668698855db2041ba0e464021615604</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>Marketing_manager</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>4784792635db2041ba118f8084762441</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>Marketing_state</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>4994948015db2041ba1da79078497482</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>Marketing_holding</var_name>
+        <var_field_type>grid</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>grid</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>5138459405db2041ba38d75090031672</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>sale</var_name>
+        <var_field_type>object</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>object</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>5596862325db2041ba448c3058373149</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>Marketing_totalSpentTime</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>3369816905d579ef34e2094076840766</var_dbconnection>
+        <var_sql><![CDATA[SELECT `marketing`.`Total_SpentTime` FROM `marketing` WHERE `marketing`.`Id` = @@marketing_Id;]]></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>5735589365db2041ba34943096958721</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>Sale_product</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>5841411665db2041ba4c0a2029342808</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>marketing</var_name>
+        <var_field_type>object</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>object</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>5903346205db2041ba2afd4060283843</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>latest_marketing_holding_Deadline</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>6492119765db2041ba52656011026885</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>latest_marketing_holding_Spent_Time</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>6629749125db2041ba2c0e1094471105</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>Sale_description</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>6653258025db2041ba49e92096881216</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>latest_marketing_holding_Description</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>6668383845db2041ba4f368003709224</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>Sale_manager</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>6883126485db2041ba2d1d9015401391</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>latest_marketing_holding_Submit_Date</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>6883678345db2041ba35a61049514424</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>latest_marketing_holding_Pass_To</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>7712461975db2041ba426a4015461968</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>Marketing_submitDate</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>7921075745db2041ba3e290017100865</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>current_marketing_holding_Delay</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>8035799915db2041ba236b6074824001</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>latest_marketing_ReviewDate</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>8113348625db2041ba404a2059512545</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>Sale_submitDate</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>8952133745db2041ba17099067952291</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>Sale_contacts</var_name>
+        <var_field_type>grid</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>grid</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>9441259145db2041ba1c8b2004356168</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>Marketing_totalDelay</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>9673459995db2041ba37c52001142975</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>Sale_product_Dsp</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>9929675715db2041ba50484012484316</var_uid>
+        <prj_uid>1690820545db20418745184096291739</prj_uid>
+        <var_name>Marketing_latestReviewDate</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+    </table>
+    <table name="webEntry"/>
+    <table name="webEntryEvent"/>
+    <table name="messageType"/>
+    <table name="messageTypeVariable"/>
+    <table name="messageEventDefinition"/>
+    <table name="scriptTask"/>
+    <table name="timerEvent"/>
+    <table name="emailEvent"/>
+    <table name="filesManager"/>
+    <table name="abeConfiguration"/>
+    <table name="elementTask"/>
+  </definition>
+  <workflow-files>
+    <file target="dynaforms">
+      <file_name><![CDATA[فرم نظارت بر بازاریابی]]></file_name>
+      <file_path><![CDATA[1415055385d4e76c053a244016936498\6428418135d6dc04de76462086430463.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjE0MTUwNTUzODVkNGU3NmMwNTNhMjQ0MDE2OTM2NDk4LzY0Mjg0MTgxMzVkNmRjMDRkZTc2NDYyMDg2NDMwNDYzIiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="dynaforms">
+      <file_name><![CDATA[فرم پیگیری بازاریابی]]></file_name>
+      <file_path><![CDATA[1415055385d4e76c053a244016936498\6091678335d60ef790bb675004475378.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjE0MTUwNTUzODVkNGU3NmMwNTNhMjQ0MDE2OTM2NDk4LzYwOTE2NzgzMzVkNjBlZjc5MGJiNjc1MDA0NDc1Mzc4IiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="dynaforms">
+      <file_name><![CDATA[فرم معرفی پروژه و بازاریابی]]></file_name>
+      <file_path><![CDATA[1415055385d4e76c053a244016936498\4128777305d5274f10035c5052912743.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjE0MTUwNTUzODVkNGU3NmMwNTNhMjQ0MDE2OTM2NDk4LzQxMjg3NzczMDVkNTI3NGYxMDAzNWM1MDUyOTEyNzQzIiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="public">
+      <file_name>1727522545d5261d2115db1000081926Info.php</file_name>
+      <file_path><![CDATA[1690820545db20418745184096291739/1727522545d5261d2115db1000081926Info.php]]></file_path>
+      <file_content><![CDATA[PD9waHAKCiRHX1BVQkxJU0ggPSBuZXcgUHVibGlzaGVyKCk7CiRzaG93ID0gImxvZ2luL3Nob3dNZXNzYWdlIjsKJG1lc3NhZ2UgPSAiIjsKaWYgKGlzc2V0KCRfU0VTU0lPTlsiX193ZWJFbnRyeVN1Y2Nlc3NfXyJdKSkgewogICAgJHNob3cgPSAibG9naW4vc2hvd0luZm8iOwogICAgJG1lc3NhZ2UgPSAkX1NFU1NJT05bIl9fd2ViRW50cnlTdWNjZXNzX18iXTsKfSBlbHNlIHsKICAgICRzaG93ID0gImxvZ2luL3Nob3dNZXNzYWdlIjsKICAgICRtZXNzYWdlID0gJF9TRVNTSU9OWyJfX3dlYkVudHJ5RXJyb3JfXyJdOwp9CiRHX1BVQkxJU0gtPkFkZENvbnRlbnQoInhtbGZvcm0iLCAieG1sZm9ybSIsICRzaG93LCAiIiwgJG1lc3NhZ2UpOwpHOjpSZW5kZXJQYWdlKCJwdWJsaXNoIiwgImJsYW5rIik7Cgo=]]></file_content>
+    </file>
+  </workflow-files>
+</ProcessMaker-Project>
